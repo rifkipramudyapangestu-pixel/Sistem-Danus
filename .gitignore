@@ -1,0 +1,17 @@
+# Kredensial database lokal (jangan pernah di-push ke GitHub)
+config/database.php
+.env
+
+# File unggahan foto produk hasil uji coba lokal
+uploads/products/*
+!uploads/products/.gitkeep
+
+# File log error lokal
+*.log
+
+# File sistem operasi & IDE
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
