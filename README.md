@@ -21,14 +21,14 @@ Platform Digital Sentralisasi Pemasaran Dana Usaha (Danus) Kemahasiswaan (Kelomp
 
 ## Alur Kerja & Jadwal Pemicu Pengerjaan Tim
 
-|    Tahap    | Branch                   | PIC Utama           | Pemicu Mulai (Kapan Mulai Kerja?)                                                   | Output Utama                                                                                        |
+| Tahap | Branch | PIC Utama | Pemicu Mulai (Kapan Mulai Kerja?) | Output Utama |
 | :---------: | :----------------------- | :------------------ | :---------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
-| **1** | `feature/db-security`  | Hazel & Rifki       | **Langsung mulai** (dari `dev`)                                             | `database.sql`, `config/database.example.php`, `auth_guard.php`, `audit_logger.php`         |
-| **2** | `feature/ui-layout`    | Tatag               | **Langsung mulai paralel** (dari `dev`)                                     | `includes/header.php`, `footer.php`, `assets/css/style.css`                                   |
-| **3** | `feature/auth`         | Hazel               | Setelah PR Tahap 1 di-merge ke `dev`                                              | `login.php`, `register.php`, `logout.php`, `validasi.js`                                    |
-| **4** | `feature/katalog-crud` | Tatag & Hazel       | Setelah PR Tahap 1 & 2 di-merge ke `dev`                                          | `katalog.php`, `tambah_produk.php`, `edit_produk.php`, `hapus_produk.php`                   |
-| **5** | `feature/rekap-api`    | Rifki, Hazel, Tatag | Setelah PR Tahap 4 di-merge ke `dev`                                              | `api/produk.php`, `api/rekap_pesanan.php`, `pesanan.php`, `dashboard.php`, `dashboard.js` |
-| **6** | `docs/qa-testing`      | Dea & Afdila        | Persiapan **langsung mulai**; eksekusi setelah Tahap 3–5 di-merge ke `dev` | Bukti uji aktual UAT (`AC-01`–`AC-08`) & Security Testing (`TC-01`–`TC-12`)               |
+| **1** | `feature/db-security` | Hazel & Rifki | **Langsung mulai** (dari `dev`) | `database.sql`, `config/database.example.php`, `auth_guard.php`, `audit_logger.php` |
+| **2** | `feature/ui-layout` | Tatag | **Langsung mulai paralel** (dari `dev`) | `includes/header.php`, `footer.php`, `assets/css/style.css` |
+| **3** | `feature/auth` | Hazel | Setelah PR Tahap 1 di-merge ke `dev` | `login.php`, `register.php`, `logout.php`, `validasi.js` |
+| **4** | `feature/katalog-crud` | Tatag & Hazel | Setelah PR Tahap 1 & 2 di-merge ke `dev` | `katalog.php`, `tambah_produk.php`, `edit_produk.php`, `hapus_produk.php` |
+| **5** | `feature/rekap-api` | Rifki, Hazel, Tatag | Setelah PR Tahap 4 di-merge ke `dev` | `api/produk.php`, `api/rekap_pesanan.php`, `pesanan.php`, `dashboard.php`, `dashboard.js` |
+| **6** | `docs/qa-testing` | Dea & Afdila | Persiapan **langsung mulai**; eksekusi setelah Tahap 3–5 di-merge ke `dev` | Bukti uji aktual UAT (`AC-01`–`AC-08`) & Security Testing (`TC-01`–`TC-12`) |
 
 ## Aturan Branching & Perintah Git Harian
 
